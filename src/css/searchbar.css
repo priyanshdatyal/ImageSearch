@@ -1,0 +1,179 @@
+.searchBar{
+    width: 100%;
+    height:5vh;
+    position: relative;
+    left: 00%;
+    background: transparent;
+    top:1%;
+    transition: width .25s ease-in-out;
+}
+
+input{
+    width: 70%;
+    height: 2.5vh;
+    color: var(--sub-color);
+    margin: 0vw;
+    font-size: 1vh;
+    padding-left: 1vh;
+    position: absolute;
+    left: 12.5%;
+    top: 1.25vh;
+    text-align: center;
+    caret-color: transparent;
+    border: 1px solid var(--sub-color);
+    border-radius: .5vw;
+}
+input:focus{
+    box-shadow: 0px 0px 105px 2px var(--sub-color);
+}
+
+.searchIcon{
+    width: 2vh;
+    height: 2vh;
+    position: absolute;
+    top: 35%;
+    left: 79.5%;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.searchIcon img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.pageCounter{
+    width: fit-content;
+    top:1.5vh;
+    position: absolute;
+    right: 88.5%;
+    display: inline-flex;
+}
+
+.pageNav{
+    width: 2vh;
+    height: 2vh;
+    margin-right: .25vh;
+    padding: .125vh;
+    border-radius: 50%;
+    background: var(--accent-color);
+    color:var(--main-color);
+    font-size: 1.25vh;
+    font-weight: 500;
+    text-align: center;
+    cursor:pointer;
+}
+.pageCounterNum{
+    width: 6vh;
+    height: 3.25vh;
+    top:1.125vh;
+    position: absolute;
+    right: 1%;
+    border-radius: .5vh;
+    display: inline-flex;
+    background: var(--sub-color);
+}
+
+.pageCounterNum p{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 1vh;
+    color: var(--main-color);
+    background: transparent;
+    font-size: 1vh;
+
+}
+@media screen and (min-width:1366px) {
+    .searchBar{
+        width: 100%;
+        height:3vw;
+        position: relative;
+        left: 00%;
+        background: transparent;
+        top:1%;
+        transition: width .25s ease-in-out;
+    }
+
+    input{
+        width: 80%;
+        height: 2vw;
+        color: var(--sub-color);
+        margin: 0vw;
+        font-size: 1vw;
+        padding-left: 1vw;
+        position: absolute;
+        left: 1.75%;
+        top: .5vw;
+        text-align: center;
+        caret-color: transparent;
+        border: 1px solid var(--sub-color);
+        border-radius: .5vw;
+    }
+    input:focus{
+        box-shadow: 0px 0px 105px 2px var(--sub-color);
+    }
+
+    .searchIcon{
+        width: 1.45vw;
+        height: 1.45vw;
+        position: absolute;
+        top: 30%;
+        left: 80%;
+        overflow: hidden;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .searchIcon img{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+
+    .pageCounter{
+        width: fit-content;
+        top:.75vw;
+        position: absolute;
+        right: 2.5%;
+        display: inline-flex;
+    }
+
+    .pageNav{
+        width: 1.5vw;
+        height: 1.5vw;
+        margin-right: .25vw;
+        padding: .125vw;
+        border-radius: 50%;
+        background: var(--accent-color);
+        color:var(--main-color);
+        font-size: 1vw;
+        font-weight: 500;
+        text-align: center;
+        cursor:pointer;
+    }
+    .pageCounterNum{
+        width: 5vw;
+        height: 2vw;
+        top:.6vw;
+        position: absolute;
+        right: 10%;
+        border-radius: .5vw;
+        display: inline-flex;
+        background: var(--sub-color);
+    }
+
+    .pageCounterNum p{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin-top: .25vw;
+        color: var(--main-color);
+        background: transparent;
+        font-size: 1vw;
+    }
+}

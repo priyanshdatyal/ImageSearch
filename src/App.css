@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+
+*{
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  -webkit-tap-highlight-color: transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+#root{
+  background: var(--main-color);
+  padding: 0;
+  margin: 0;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+  padding: 0 !important;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 0vw !important;
+}
+html,body{
+  width: 100% !important;
+  height: 100% !important;
+  background: var(--main-color);
+  overflow: hidden !important;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+.main-con{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  transition: width .25s ease-in-out;
+  transform: scaleX(1);
+  transform-origin: left;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media screen and (min-width:1366px) {
+  
+*{
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  -webkit-tap-highlight-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#root{
+  background: var(--main-color);
+  padding: 0;
+  margin: 0;
+
+  
+  width: 100% !important;
+  height: 100vh !important;
+  margin: 0;
+  padding: 0 !important;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 0vw !important;
+}
+html,body{
+  width: 100%;
+  height: 100vh;
+  background: var(--main-color);
+  overflow: hidden !important;
+  margin: 0;
+  padding: 0;
+}
+  .main-con{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top:0%;
+    margin: 0;
+    padding: 0;
+    transition: width .25s ease-in-out;
+    transform: scaleX(1);
+    transform-origin: left;
   }
 }

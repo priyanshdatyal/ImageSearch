@@ -1,0 +1,31 @@
+
+.main-frame-con{
+    height:73vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.head-title{
+    width: 100%;
+    top: 45%;
+    position: absolute;
+    font-size: 5vh;
+    text-align: center;
+    color:var(--sub-color)
+}
+@media screen and (min-width : 1366px) {
+    .main-frame-con{
+        height:73vh;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .head-title{
+        width: 100%;
+        top: 45%;
+        position: absolute;
+        font-size: 2.25vw;
+        text-align: center;
+        color:var(--sub-color)
+    }
+}
